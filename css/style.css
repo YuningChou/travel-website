@@ -59,6 +59,11 @@ nav .container .navbar-nav .nav-item .nav-link {
   color: #333;
 }
 
+.more {
+  width: 20%;
+  margin: 0 auto;
+}
+
 .container {
   padding: 50px 0;
 }
@@ -92,6 +97,10 @@ nav .container .navbar-nav .nav-item .nav-link {
 
 .type_tab {
   width: 100%;
+}
+
+.type_tab .nav-item {
+  margin-bottom: 10px;
 }
 
 .type_tab .nav-item .nav-link {
