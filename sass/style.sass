@@ -1,5 +1,6 @@
 body
     font-family : Microsoft JhengHei
+    background : #eee
 
 nav
     background : rgba(0,0,0,.3)
@@ -27,12 +28,15 @@ nav
     .card
         border : 0px
         box-shadow : 0px 1px 3px rgba(0,0,0,.3)
-        .card-title
-            font-size : 1.3rem
-            text-align : center
-            a 
+        .card-body
+            padding : .5rem
+            .card-title
+                font-size : 1.3rem
                 text-align : center
-                color : #333
+                padding : 1rem
+                a 
+                    text-align : center
+                    color : #333
 
 .container 
     padding : 50px 0
@@ -45,12 +49,34 @@ nav
     li
         display : inline-block
         width : 32%
-        color : #b3abab
+        color : #777
         i  
             font-size : 1.5rem
-            display : inline-block;
-            width : 100%;
-            text-align : center;
+            display : inline-block
+            width : 100%
+            text-align : center
         span 
             display : block
             text-align : center
+
+.type_tab
+    width : 100%
+    .nav-item
+        .nav-link
+            text-align : center
+            font-size : 1.2rem
+            padding : 20px
+            background :  white
+            color : #777
+            box-shadow : 0px 0px 10px rgba(0,0,0,.2)
+            &.active
+                color : white
+                background : #dc3545
+            i
+                font-size : 2rem
+                display : block
+                width : 100%
+                text-align : center
+
+.tab-content
+    padding : 30px 0
